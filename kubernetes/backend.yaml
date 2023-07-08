@@ -17,7 +17,6 @@ spec:
       containers:
       - name: flask-backend
         image: amandevsecops/demo-bckend
-        imagePullPolicy: Never
         ports:
         - containerPort: 5000
         env:
